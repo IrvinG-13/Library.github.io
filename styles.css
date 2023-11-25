@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page{
+    display: flex;
+    height: 100%;
+}
+
+.add-book{
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    flex-direction: column;
+    background-color: rgb(202, 201, 201);
+    box-shadow: 5px 5px 10px #616161;
+}
+
+label{
+    margin: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.btn{
+    display: flex;
+}
+
+.submit{
+    margin-top: 40px;
+    background-color: rgb(39, 132, 169);
+    padding: 12px;
+    width: 120px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.clear{
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: rgb(169, 39, 39);
+    padding: 12px;
+    width: 120px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.content{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 30px;
+    height: 100%;
+}
+
+h1{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.book-settings{
+    display: flex;
+    margin-top: 20px;
+}
+
+.author{
+    width: 20%;
+    text-align: center;
+}
+
+.title{
+    width: 20%;
+    text-align: center;
+}
+
+.pages{
+    width: 20%;
+    text-align: center;
+}
+
+.status{
+    width: 20%;
+    text-align: center;
+    font-size: 36px;
+    color: rgb(137, 204, 35);
+}
+
+.status1{
+    width: 20%;
+    text-align: center;
+}
+
+.bi-x{
+    color: red;
+}
+
+.delete-all{
+    width: 20%;
+    background-color: rgb(169, 39, 39);
+    padding: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.book{
+    display: flex;
+    margin-top: 40px;
+    border: 2px solid rgb(137, 135, 135);
+    box-shadow: 5px 5px 10px #616161;
+    padding: 10px;
+}
+
+.delete{
+    width: 20%;
+    background-color: rgb(168, 60, 60);
+    padding: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
